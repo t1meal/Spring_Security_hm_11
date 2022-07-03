@@ -2,7 +2,8 @@ server:
   port: 8080
   servlet:
     context-path: /dao
-
+  #    session:
+  #      timeout: 60s
   jpa:
     show-sql: true
     hibernate:
